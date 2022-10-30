@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Mar 2022, 12:21:17
+    Author     : Sara9
+*/
+
+/*html, body, #map{
+    width: 400px;
+    height: 400px;
+}*/
+
+#map{
+    width: 1000px;
+    height: 500px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: #6497b1;
+    color: white;
+    
+}
+
+button:hover{
+    background: white;
+    color: #6497b1;
+    border: 2px solid #6497b1;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+.button7{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#transporttype{
+    position: absolute;
+    right: 40%;
+    bottom: 10%;
+    z-index: 10000000000;
+    
+}
+
+
